@@ -1,20 +1,23 @@
-# LinguaBrief 
-Multilingual Text Summarization using NLP
+# LinguaBrief – Multilingual Text Summarizer
 
-**LinguaBrief** is a natural language processing (NLP) based tool designed to generate concise summaries from lengthy text passages. Supporting multiple languages such as **English, Spanish, French, and German**, LinguaBrief aims to make content understanding faster and more accessible for users around the globe.
+**LinguaBrief** is a multilingual text summarization web app built with **Python**, **spaCy**, and **Streamlit**. It supports summarizing text in multiple languages and provides optional translation of the summarized content to another language using the **deep-translator** library.
 
 ---
-## Features
-- **Multi-Language Support**: Summarize text in various languages.
-- **Custom Summarization**: Choose the percentage of summarization for tailored results.
-- **User-Friendly Interface**: Intuitive design for easy use.
 
-## Libraries Used
-- **Streamlit**: For building the web interface.
-- **spaCy**: For natural language processing and text analysis.
+## 🌍 Features
 
-## Usage
-1. Select the language of your text.
-2. Enter the text you wish to summarize.
-3. Choose the percentage for summarization.
-4. Click "Summarize" to view the result.
+- 🧠 **Summarization with NLP**: Uses word frequency and sentence scoring for extracting the most relevant parts of the text.
+- 🌐 **Multilingual Support**: Works with English, Spanish, French, and German texts.
+- 🔄 **Cross-Language Translation**: Translate your summaries into any of the supported languages.
+- ⚡ **Interactive UI**: Built with Streamlit for quick input and output.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.8+**
+- **spaCy** (NLP Engine)
+- **Streamlit** (Frontend)
+- **deep-translator** (for translation)
+  
+
